@@ -8,11 +8,7 @@ public class board {
 		Scanner scan = new Scanner(System.in);
 		ArrayList board = new ArrayList();
 		
-//		ArrayList<게시물> members = new ArrayList<게시물>();
-//		게시물 student = new Student(name,age);
-//		members.add(student);
-//		members.add(new Member(cmd제목,cmd내용));
-//		
+		
 		while(true) {
 			
 			String cmd = scan.nextLine();
@@ -29,7 +25,8 @@ public class board {
 				String cmd내용 = scan.nextLine();
 				System.out.println("게시물이 등록되었습니다.");
 				
-//				게시판 게시물1 = 게시판(cmd제목, cmd내용)
+				게시판 게시물1 = 게시판(cmd제목, cmd내용);
+				a게시판.게시물add(게시물1);
 			}
 			
 		}
